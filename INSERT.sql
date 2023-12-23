@@ -55,13 +55,20 @@ VALUES
 ('Закрываю глаза', 340, 11, 3),
 ('До утра', 251, 11, 2),
 ('Птичка', 200, 12, 4 ),
-('Друг или враг', 160, 13, 3)
+('Друг или враг', 160, 13, 3),
+('Нет твоей вины', 150, 13, NULL),
+('my own', 165, 3, NULL),
+('own my', 123, 10, 2),
+('my', 148, 4, NULL),
+('oh my god', 203, 5, 3),
+('myself', 197, 6, 1),
+('by myself', 205, 3, 2),
+('bemy self', 189, 10, NULL),
+('myself by', 214, 7, 4),
+('by myself by', 169, 6, 3),
+('beemy', 155, 6, 1),
+('premyne', 214, 8, NULL)
 ;
-
-INSERT INTO song(name, duration, album_id, collection_id)
-VALUES
-('Нет твоей вины', 150, 13, null)
-
 
 INSERT INTO albumsmusicians(album_id, musician_id)
 VALUES
@@ -85,11 +92,7 @@ VALUES
 (1, 1),
 (2, 2),
 (3, 2),
-(4, 3)
-;
-
-INSERT INTO musiciansgenres(musician_id, genre_id)
-VALUES
+(4, 3),
 (4,2)
 ;
 
@@ -110,5 +113,16 @@ VALUES
 (13, 3),
 (14, 2),
 (15, 4),
-(16, 3)
+(16, 3),
+(17, NULL),
+(18, 2),
+(19, NULL),
+(20, 3),
+(21, 1),
+(22, 2),
+(23, NULL), 
+(24, 4),
+(25, 3),
+(26, 1),
+(27, NULL)
 ;
